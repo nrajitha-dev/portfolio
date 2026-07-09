@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact — N. Rajitha</title>
+<meta name="description" content="Get in touch with N. Rajitha for full-time roles, freelance projects, or collaborations. Available immediately, open to remote."/>
+<link rel="canonical" href="https://nrajitha-dev.github.io/portfolio/contact.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Contact — N. Rajitha"/>
+<meta property="og:description" content="Open to full-time roles, freelance projects, and interesting collaborations. Typically responds within 24 hours."/>
+<meta property="og:url" content="https://nrajitha-dev.github.io/portfolio/contact.html"/>
+<meta name="twitter:card" content="summary"/>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/layout.css"/>
+<link rel="stylesheet" href="css/components.css"/>
+<link rel="stylesheet" href="css/animations.css"/>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div id="cursor-dot" aria-hidden="true"></div>
+<div id="cursor-glow" aria-hidden="true"></div>
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+<nav id="site-nav" aria-label="Primary"></nav>
+
+<main class="page" id="main-content">
+  <div class="page-header container reveal">
+    <p class="sec-label">// contact</p>
+    <h1>Let's Work Together</h1>
+    <p>Open to full-time roles, freelance projects, and interesting collaborations. My inbox is always open.</p>
+  </div>
+
+  <section class="section-flush">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left — links -->
+        <div class="contact-info reveal">
+
+          <div class="contact-cta">
+            <h2>Ready to build something?</h2>
+            <div class="cta-roles">
+              <span>Backend Developer</span>
+              <span>Python / Django</span>
+              <span>Full-Stack Developer</span>
+            </div>
+            <p class="cta-avail">✓ Available to join immediately · Open to remote</p>
+          </div>
+
+          <p>
+            Whether you have a Django project that needs building, a REST API to design, or a full-time
+            role you think I'd be a great fit for — reach out. I typically respond within 24 hours.
+          </p>
+          <nav class="c-links" aria-label="Contact methods">
+            <a href="mailto:nrajitha142@gmail.com" class="c-link">
+              <div class="c-icon" aria-hidden="true">✉️</div>
+              <div><div class="c-lbl">Email</div><div class="c-val">nrajitha142@gmail.com</div></div>
+            </a>
+            <a href="https://www.linkedin.com/in/n-rajitha/" target="_blank" rel="noopener" class="c-link">
+              <div class="c-icon" aria-hidden="true">💼</div>
+              <div><div class="c-lbl">LinkedIn</div><div class="c-val">linkedin.com/in/n-rajitha</div></div>
+            </a>
+            <a href="https://github.com/nrajitha-dev" target="_blank" rel="noopener" class="c-link">
+              <div class="c-icon" aria-hidden="true">⌨️</div>
+              <div><div class="c-lbl">GitHub</div><div class="c-val">github.com/nrajitha-dev</div></div>
+            </a>
+            <a href="https://www.skills.google/public_profiles/158e2470-a3e5-4d67-80ed-a36059862624" target="_blank" rel="noopener" class="c-link">
+              <div class="c-icon" aria-hidden="true">☁️</div>
+              <div><div class="c-lbl">Google Cloud Profile</div><div class="c-val">Silver League · 100+ badges</div></div>
+            </a>
+            <a href="./assets/Rajitha_Resume_Developer.pdf" download class="c-link">
+              <div class="c-icon" aria-hidden="true">📄</div>
+              <div><div class="c-lbl">Resume</div><div class="c-val">Download PDF</div></div>
+            </a>
+          </nav>
+
+        </div>
+
+        <!-- Right — form -->
+        <div class="reveal reveal-d2">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="contact-form-title">Send a message</div>
+            <div class="contact-form-sub">I'll reply within 24 hours.</div>
+            <!-- FormSubmit config (no backend needed) -->
+            <input type="hidden" name="_subject" value="New portfolio contact message"/>
+            <input type="hidden" name="_template" value="table"/>
+            <input type="hidden" name="_captcha" value="false"/>
+            <div class="fg">
+              <label for="cf-name">Your name <span class="required" aria-hidden="true">*</span></label>
+              <input type="text" id="cf-name" name="name" placeholder="Jane Smith" required aria-describedby="cf-name-err"/>
+              <div class="field-error" id="cf-name-err" role="alert"></div>
+            </div>
+            <div class="fg">
+              <label for="cf-email">Email address <span class="required" aria-hidden="true">*</span></label>
+              <input type="email" id="cf-email" name="email" placeholder="jane@company.com" required aria-describedby="cf-email-err"/>
+              <div class="field-error" id="cf-email-err" role="alert"></div>
+            </div>
+            <div class="fg">
+              <label for="cf-subject">Subject</label>
+              <input type="text" id="cf-subject" name="subject" placeholder="Full-time role / Freelance project / Say hi"/>
+            </div>
+            <div class="fg">
+              <label for="cf-message">Message <span class="required" aria-hidden="true">*</span></label>
+              <textarea id="cf-message" name="message" placeholder="Tell me about the role, project, or just introduce yourself..." required aria-describedby="cf-message-err"></textarea>
+              <div class="field-error" id="cf-message-err" role="alert"></div>
+            </div>
+            <button type="submit" class="form-btn" id="form-btn">
+              Send Message →
+            </button>
+            <p class="form-note" id="form-note" role="status" aria-live="polite">Powered by FormSubmit — sends straight to my inbox.</p>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="faq-grid reveal">
+        <div class="faq-item"><div class="faq-q">Availability</div><div class="faq-a">Immediate</div></div>
+        <div class="faq-item"><div class="faq-q">Location</div><div class="faq-a">Bengaluru, India</div></div>
+        <div class="faq-item"><div class="faq-q">Preferred Role</div><div class="faq-a">Full-Stack / Python Dev</div></div>
+        <div class="faq-item"><div class="faq-q">Work Type</div><div class="faq-a">Remote / Hybrid / Onsite</div></div>
+        <div class="faq-item"><div class="faq-q">Response Time</div><div class="faq-a">Within 24 hours</div></div>
+        <div class="faq-item"><div class="faq-q">Resume</div><div class="faq-a"><a href="assets/Rajitha_Resume.pdf" download>Download PDF ↓</a></div></div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="js/partials.js" defer></script>
+<script src="js/cursor.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="js/three-bg.js" defer></script>
+<script src="js/reveal.js" defer></script>
+<script src="js/card-glow.js" defer></script>
+</body>
+</html>

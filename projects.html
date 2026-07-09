@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Projects — N. Rajitha</title>
+<meta name="description" content="Full-stack, ML/data, and QA projects by N. Rajitha, including a Django student management system, an NLP chatbot, and a traffic-forecasting ML model."/>
+<link rel="canonical" href="https://nrajitha-dev.github.io/portfolio/projects.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Projects — N. Rajitha"/>
+<meta property="og:description" content="A selection of full-stack, ML/data, and QA projects showing how N. Rajitha thinks, builds, and solves problems."/>
+<meta property="og:url" content="https://nrajitha-dev.github.io/portfolio/projects.html"/>
+<meta name="twitter:card" content="summary"/>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/layout.css"/>
+<link rel="stylesheet" href="css/components.css"/>
+<link rel="stylesheet" href="css/animations.css"/>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div id="cursor-dot" aria-hidden="true"></div>
+<div id="cursor-glow" aria-hidden="true"></div>
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+<nav id="site-nav" aria-label="Primary"></nav>
+
+<main class="page" id="main-content">
+  <div class="page-header container reveal">
+    <p class="sec-label">// projects</p>
+    <h1>Things I've Built</h1>
+    <p>A selection of projects showing how I think, build, and solve problems — from full-stack web apps to ML models.</p>
+  </div>
+
+  <section class="section-flush">
+    <div class="container">
+
+      <!-- Filter chips -->
+      <div class="proj-filter reveal" role="group" aria-label="Filter projects by category">
+        <button class="f-chip" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="f-chip" type="button" data-filter="fullstack" aria-pressed="false">Full-Stack</button>
+        <button class="f-chip" type="button" data-filter="ml" aria-pressed="false">ML / Data</button>
+        <button class="f-chip" type="button" data-filter="qa" aria-pressed="false">QA / Testing</button>
+      </div>
+
+      <div class="proj-grid">
+
+        <!-- Student Management System -->
+        <article class="card proj-card proj-feat reveal" data-cat="fullstack">
+          <div class="feat-tag">⭐ Featured</div>
+          <div class="proj-preview" aria-hidden="true"><span class="proj-preview-icon">🎓</span></div>
+          <div class="proj-top-row">
+            <div class="proj-ico" aria-hidden="true">🎓</div>
+            <div class="proj-lnks">
+              <a href="https://github.com/nrajitha-dev/student-management-system" target="_blank" rel="noopener" class="proj-lnk" aria-label="View Full-Stack Student Management System source on GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h2 class="proj-nm">Full-Stack Student Management System</h2>
+          <p class="proj-ds">End-to-end web app managing records for 500+ students. Role-based access control for Admin, Teacher, and Student roles. JWT authentication, normalized 8-table MySQL schema, and REST API tested across 10+ endpoints. 25% faster page loads after SQL query optimization.</p>
+          <div class="proj-stat-row">
+            <span class="proj-st">500+ students</span>
+            <span class="proj-st">3 user roles</span>
+            <span class="proj-st">25% faster loads</span>
+          </div>
+          <div class="proj-pills">
+            <span class="pill">Python</span>
+            <span class="pill">Django</span>
+            <span class="pill">MySQL</span>
+            <span class="pill">REST API</span>
+            <span class="pill pill-cyan">JWT Auth</span>
+            <span class="pill pill-cyan">HTML/CSS/JS</span>
+          </div>
+        </article>
+
+        <!-- NLP Chatbot -->
+        <article class="card proj-card reveal reveal-d1" data-cat="ml">
+          <div class="proj-preview" aria-hidden="true"><span class="proj-preview-icon">💬</span></div>
+          <div class="proj-top-row">
+            <div class="proj-ico" aria-hidden="true">💬</div>
+            <div class="proj-lnks">
+              <a href="https://github.com/nrajitha-dev/Implementation-of-chatbot" target="_blank" rel="noopener" class="proj-lnk" aria-label="View NLP Chatbot source on GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h2 class="proj-nm">NLP Chatbot</h2>
+          <p class="proj-ds">Intent-based chatbot using NLP techniques — tokenization, lemmatization, and TF-IDF vectorization with NLTK. Naive Bayes classifier built with Scikit-learn to classify user intents across multiple query categories.</p>
+          <div class="proj-pills">
+            <span class="pill">Python</span>
+            <span class="pill">NLTK</span>
+            <span class="pill">Scikit-learn</span>
+            <span class="pill pill-cyan">NLP</span>
+            <span class="pill pill-cyan">Jupyter</span>
+          </div>
+        </article>
+
+        <!-- Traffic Forecasting -->
+        <article class="card proj-card reveal reveal-d2" data-cat="ml">
+          <div class="proj-preview" aria-hidden="true"><span class="proj-preview-icon">🏙️</span></div>
+          <div class="proj-top-row">
+            <div class="proj-ico" aria-hidden="true">🏙️</div>
+            <div class="proj-lnks">
+              <a href="https://github.com/nrajitha-dev/Smart-City-Traffic-Forecasting" target="_blank" rel="noopener" class="proj-lnk" aria-label="View Smart City Traffic Forecasting source on GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h2 class="proj-nm">Smart City Traffic Forecasting</h2>
+          <p class="proj-ds">ML model predicting urban traffic patterns using regression algorithms on real-world datasets. EDA and feature engineering with Pandas and NumPy; visualized with Matplotlib and Seaborn.</p>
+          <div class="proj-pills">
+            <span class="pill">Python</span>
+            <span class="pill">Scikit-learn</span>
+            <span class="pill">Pandas</span>
+            <span class="pill pill-cyan">NumPy</span>
+            <span class="pill pill-cyan">Matplotlib</span>
+          </div>
+        </article>
+
+        <!-- QA Testing Suite -->
+        <article class="card proj-card reveal" data-cat="qa">
+          <div class="proj-preview" aria-hidden="true"><span class="proj-preview-icon">🧪</span></div>
+          <div class="proj-top-row">
+            <div class="proj-ico" aria-hidden="true">🧪</div>
+            <div class="proj-lnks">
+              <a href="https://github.com/nrajitha-dev/qa-testing-suite" target="_blank" rel="noopener" class="proj-lnk" aria-label="View QA Testing and Validation Suite source on GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h2 class="proj-nm">QA Testing &amp; Validation Suite</h2>
+          <p class="proj-ds">40+ structured test cases covering functional, integration, regression, and UAT scenarios across 5 modules. 12 defects logged with severity/priority classifications. 20% reduction in post-release defect rate.</p>
+          <div class="proj-stat-row">
+            <span class="proj-st">40+ test cases</span>
+            <span class="proj-st">12 defects logged</span>
+          </div>
+          <div class="proj-pills">
+            <span class="pill">Manual Testing</span>
+            <span class="pill">Postman</span>
+            <span class="pill pill-cyan">JIRA</span>
+            <span class="pill pill-cyan">Regression</span>
+            <span class="pill pill-cyan">UAT</span>
+          </div>
+        </article>
+
+        <!-- Fitness Tracker -->
+        <article class="card proj-card reveal reveal-d1" data-cat="fullstack">
+          <div class="proj-preview" aria-hidden="true"><span class="proj-preview-icon">💪</span></div>
+          <div class="proj-top-row">
+            <div class="proj-ico" aria-hidden="true">💪</div>
+            <div class="proj-lnks">
+              <a href="https://github.com/nrajitha-dev/Fitness-tracker" target="_blank" rel="noopener" class="proj-lnk" aria-label="View Fitness Tracker App source on GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h2 class="proj-nm">Fitness Tracker App</h2>
+          <p class="proj-ds">Web application for logging workouts, tracking fitness goals, and monitoring progress over time. User authentication, activity dashboard, and data persistence with SQLite.</p>
+          <div class="proj-pills">
+            <span class="pill">Python</span>
+            <span class="pill">Flask</span>
+            <span class="pill pill-cyan">SQLite</span>
+            <span class="pill pill-cyan">HTML/CSS</span>
+          </div>
+        </article>
+
+        <!-- Cosmetics Tableau -->
+        <article class="card proj-card reveal reveal-d2" data-cat="ml">
+          <div class="proj-preview" aria-hidden="true"><span class="proj-preview-icon">📊</span></div>
+          <div class="proj-top-row">
+            <div class="proj-ico" aria-hidden="true">📊</div>
+            <div class="proj-lnks">
+              <a href="http://github.com/nrajitha-dev/cosmetics-trend-analysis-with-tableau" target="_blank" rel="noopener" class="proj-lnk" aria-label="View N. Rajitha's GitHub profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h2 class="proj-nm">Cosmetics Trend Analysis — Tableau</h2>
+          <p class="proj-ds">Data visualization project analyzing cosmetics market trends using Tableau. Interactive dashboards exploring sales trends, brand performance, and category insights from structured retail datasets.</p>
+          <div class="proj-pills">
+            <span class="pill">Tableau</span>
+            <span class="pill">Data Analysis</span>
+            <span class="pill pill-cyan">EDA</span>
+            <span class="pill pill-cyan">Visualization</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+
+
+<script src="js/partials.js" defer></script>
+<script src="js/cursor.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="js/three-bg.js" defer></script>
+<script src="js/reveal.js" defer></script>
+<script src="js/card-glow.js" defer></script>
+<script src="js/project-filter.js" defer></script>
+</body>
+</html>
